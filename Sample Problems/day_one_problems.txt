@@ -1,0 +1,27 @@
+Problem 1: Variable Creation and Output
+Goal: Create variables of different data types and use the print() function to display information about them.
+Create an integer variable named user_age and assign it your age.
+Create a string variable named user_city and assign it the name of your favorite city.
+Create a boolean variable named is_learning_python and set it to True.
+Using a single print() statement, display a sentence that combines the text "My age is", the value of user_age, the text "and I'm learning Python from", and the value of user_city.
+The output should be easy to read and grammatically sound.
+
+Problem 2: Data Type Identification and Mutability
+Goal: Use the type() function and demonstrate an understanding of mutable/immutable types.
+Define a variable mystery_data and assign it the value ["red", 42, 3.14].
+Print the current value of mystery_data.
+Print the data type of mystery_data using the type() function.
+Since this type is mutable, change the second element (the number 42) in mystery_data to a new string value: "blue".
+Print the value of mystery_data again to show the change.
+Now, define a new variable another_mystery and assign it the string value "Immutability".
+Print the data type of another_mystery. (You do not need to attempt to change a part of this variable, just show its type).
+
+Problem 3: Exploring Complex and Group Data Types
+Goal: Work with a less common numerical type (complex) and a common collection type (dictionary).
+Define a variable named electrical_impedance and assign it a complex number value, for example, 10 + 5j.
+Print the value and the data type of electrical_impedance in the same line, clearly labeled (e.g., "Impedance Value: [value] | Type: [type]").
+Define a dictionary named student_info with the following key-value pairs:
+"id": an integer (e.g., 1001)
+"major": a string (e.g., "Computer Science")
+"gpa": a float (e.g., 3.85)
+Using a single print() statement, display the contents of the entire student_info dictionary.
