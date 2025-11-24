@@ -1,0 +1,32 @@
+Problem 1: Basic Formatting and Concatenation
+You are given a student's name, a major, and an ID number (which should be treated as a number for potential calculations, but displayed as a string).
+student_name = "Alex Rodriguez"
+major = "Electronics Engineering"
+id_number = 202312345
+Create a multiline string that holds the text "Student Profile".
+Use f-strings to create a final string that displays the following information on one line: "Profile: [student_name] - Major: [major] - ID: [id_number]"
+Print the multiline string followed by the final string.
+output:
+Student Profile
+Profile: Alex Rodriguez - Major: Electronics Engineering - ID: 202312345
+
+Problem 2: Indexing, Slicing, and Reversal
+You are given the following string: quote_phrase = "Coding is fun and useful for everyone!"
+Use indexing to extract and print the first letter of the phrase and the letter 'u' from the word "useful".
+Use slicing to extract and print the substring "fun and useful".
+Print the entire quote_phrase in reverse.
+output:
+C
+u
+fun and useful
+!enoyreve rof lufesu dna nuf si gnidoC
+
+Problem 3: The Mixed Challenge (F-strings, Slicing, and the in Operator)
+You are given the following information:
+sentence = "The quick brown fox jumps over the lazy dog."
+secret_word = "ox j"
+Use the in operator to check if the secret_word is present in the sentence and store the result in a boolean variable named is_present.
+Use slicing (with only the start:stop parameters) on the sentence to extract the word "jumps". Store this word in a variable named action_word.
+Use an f-string to create a final print statement that says: "The word we found is: [action_word]. Is the secret word part of the sentence? [is_present]."
+output:
+The word we found is: jumps. Is the secret word part of the sentence? True.
