@@ -1,0 +1,31 @@
+Problem 1: String Case Conversion and Transformation
+Goal: Practice upper(), lower(), capitalize(), and title().
+Create a variable birthday_message with the value "happy birthday friend".
+Convert it to uppercase and store it in upper_birthday.
+Create another variable holiday_message with the value "MERRY CHRISTMAS AND A HAPPY NEW YEAR".
+Convert it to lowercase and store it in lower_holiday.
+Convert the following string to title case and store in title_story:
+once upon a time in coding land
+Print the three results (upper_birthday, lower_holiday, title_story) using separate print statements.
+
+Problem 2: Trimming, Replacing, and Joining
+Goal: Practice strip(), replace(), and join().
+Make a variable messy_text with this value (note the whitespaces):
+    hello python world
+Use .strip() and store the cleaned version in clean_text.
+Create a variable statement with the value "i love programming".
+Replace "love" with "enjoy" and store in new_statement.
+Create a list named fruits containing: "banana", "apple", "grapes".
+Join the items using a hyphen (-) and store the result in joined_fruits.
+Print all three results (clean_text, new_statement, joined_fruits) in separate lines.
+
+Problem 3: Searching, Counting, and Checking String Properties
+Goal: Practice find(), count(), startswith(), endswith(), isupper(), and islower().
+Create a variable quote with the value "winds carry memories of you".
+Use .find() to get the index of the first space and store in first_space_index.
+Count how many times the letter "r" appears in quote and store in count_r.
+Check if the string "HELLO WORLD" is uppercase using .isupper() and store in check_upper.
+Check if the string "introduction" is lowercase using .islower() and store in check_lower.
+Create a variable filename with the value "notes.txt".
+Check if it ends with ".txt" and store in is_text_file.
+Print all outputs clearly, each on a separate line.
