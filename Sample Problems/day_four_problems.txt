@@ -1,0 +1,39 @@
+Problem 1 — Shopping Cart Calculation
+Scenario:
+You buy 3 items priced at 12.75, 9.99, and 5. You have a discount of 8% and a tax of 12.5%.
+Compute total price
+Apply discount
+Add tax
+Round final price to 2 decimal places
+Calculate floor division by 3 (items per person)
+Compute modulo 7 of total price for a special coupon
+Show types of all results
+
+Desired Output Example:
+Total: 27.74, Discounted: 25.51, Taxed: 28.70, Floor Division: 9.0, Modulo 7: 6.74, Type of Total: <class 'float'>
+
+Problem 2 — Mixed Numbers and Powers
+Scenario:
+You have an integer x = 7 and a float y = -2.5.
+Add, subtract, multiply, and divide them
+Perform floor division
+Compute x raised to y as a float
+Compute pow(x, 3, 5) for modular exponentiation
+Round results to 1 decimal place
+Convert float division result to int
+
+Desired Output Example:
+Sum: 4.5, Difference: 9.5, Product: -17.5, Division: -2.8, Floor Division: -3.0, Power x^y: 0.018, Modular Pow: 3, Rounded Division: -2.8, Converted Int: -2
+
+Problem 3 — Temperature Conversion and Analysis
+Scenario:
+You record temperatures in Celsius: t1 = -7.5, t2 = 23, t3 = 0.
+Convert each to Fahrenheit (C * 9/5 + 32)
+Compute average temperature in Fahrenheit
+Compute sum, difference, product, and modulo of t2 and t1
+Floor divide t2 by t3 + 1 (to avoid zero division)
+Round average to 2 decimal places
+Convert average to int
+
+Desired Output Example:
+Fahrenheit: -9.5, 73.4, 32.0, Avg: 31.97, Sum: 15.5, Difference: 30.5, Product: -172.5, Modulo: 23.5, Floor Division: 23, Rounded Avg: 31.97, Int Avg: 31
