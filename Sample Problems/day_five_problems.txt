@@ -1,0 +1,30 @@
+PROBLEM 1 — Mixed Integer, Float, and Negative Operations
+Perform each step in the exact order described. After completing all steps, print all seven variables with a single print statement.
+Start with a variable a equal to -15.75. Add 20.125 to a using an augmented assignment.
+Start with a variable b equal to 500. Subtract 1234.56 from b using an augmented assignment.
+Start with a variable c equal to -12. Multiply c by -8.5 using an augmented assignment.
+Start with a variable d equal to 99.9. Divide d by -7 using an augmented assignment.
+Start with a variable e equal to -100. Replace e with how many whole groups of 9 fit into it (use the appropriate integer division augmented assignment).
+Start with a variable f equal to 45.75. Replace f with the remainder when it is divided by -6 (use the appropriate augmented assignment).
+Start with a variable g equal to 2.5. Raise g to the power of 3.5 using an augmented assignment.
+One print statement (required): print(a, b, c, d, e, f, g)
+
+PROBLEM 2 — Strings, Repetition, and Combined Math Operations
+Perform each sentence in order. Use augmented assignment for each step. Print all five variables in one print call.
+Start with s = "Data". Append the substring " Science" to s using an augmented assignment, then repeat the resulting string twice using another augmented assignment.
+Start with x = 256. Replace x with how many whole groups of 9 fit into it (use the appropriate integer division augmented assignment).
+Start with y = -3.14159. Multiply y by 12 using an augmented assignment.
+Start with z = 100. Replace z with the remainder when 100 is divided by 33 using an augmented assignment.
+Start with w = 0.5. Raise w to the power of -2 using an augmented assignment.
+One print statement (required): print(s, x, y, z, w)
+
+PROBLEM 3 — Extreme Values, Precision, and Edge Behavior
+Carefully follow each sentence; choose the correct augmented operator each time. Print all seven variables with a single print call.
+Start with p = 0.000004. Multiply p by 250000000 using an augmented assignment.
+Start with q = -500. Replace q with how many whole groups of 37 fit into it (use the appropriate integer division augmented assignment — pay attention to the sign behavior).
+Start with r = -0.0001. Divide r by 0.03 using an augmented assignment.
+Start with t = 99999. Subtract 123456789 from t using an augmented assignment.
+Start with u = "AI". Repeat u seven times using an augmented assignment, then append the literal string " ROCKS!" using another augmented assignment.
+Start with v = 81. Raise v to the power of -0.25 using an augmented assignment.
+Start with m = 10. Replace m with the remainder when 10 is divided by -4 using the appropriate augmented assignment (watch sign rules for remainder).
+One print statement (required): print(p, q, r, t, u, v, m)
