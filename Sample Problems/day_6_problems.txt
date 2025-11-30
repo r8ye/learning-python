@@ -1,0 +1,56 @@
+Problem 1: Personal Greeting Function
+Write a function greet_user() that:
+Asks the user for their first name and last name.
+Prints a greeting in the format:
+Hello, <first_name> <last_name>!
+Returns the full name as a string.
+
+Constraints:
+Only use input(), print(), and function calls.
+No if, loops, or error handling.
+
+
+Problem 2: Arithmetic Functions
+Define four functions:
+
+def add(a, b):
+    # returns sum
+
+def subtract(a, b):
+    # returns difference
+
+def multiply(a, b):
+    # returns product
+
+def divide(a, b):
+    # returns quotient
+
+Then:
+Ask the user to input two numbers (num1 and num2).
+Call all four functions with these numbers.
+Print the results in this format:
+
+Sum: <result>
+Difference: <result>
+Product: <result>
+Quotient: <result>
+
+Constraints:
+Convert inputs to the correct type (float or int) before calculations.
+Use only function calls for arithmetic.
+
+
+Problem 3: Favorite Things Function
+Write a function favorite_things() that:
+Asks the user for their favorite food, favorite color, and favorite number.
+Prints each input in a formatted sentence:
+
+You like <food>.
+Your favorite color is <color>.
+Your favorite number is <number>.
+
+Convert the favorite number to an integer before printing.
+
+Constraints:
+Only use input(), print(), int(), and function definitions/calls.
+No loops or conditionals.
