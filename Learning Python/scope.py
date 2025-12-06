@@ -6,13 +6,13 @@ def my_function():
 my_function()
 
 
-# def fill():
-#     first_name = input("What is your first name? ")
-#     last_name = input("What is your last name? ")
-#     age = input("How old are you? ")
-#
-#     print(f"My name is {first_name} {last_name}. I am {age} years old.")
-# fill()
+def fill():
+    first_name = input("What is your first name? ")
+    last_name = input("What is your last name? ")
+    age = input("How old are you? ")
+
+    print(f"My name is {first_name} {last_name}. I am {age} years old.")
+fill()
 
 
 # enclosing scope
