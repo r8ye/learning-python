@@ -1,0 +1,160 @@
+🧠 Problem 1 — Enclosing Scope Variable Override (Hard)
+
+You are given the following function structure:
+
+def mystery():
+    txt = "outer"
+
+    def change():
+        # your code here
+        print(txt)
+
+    change()
+    print(txt)
+
+
+Your task:
+Modify the code inside change() so that:
+
+The first print outputs:
+
+modified inner
+
+
+The second print outputs:
+
+modified outer
+
+
+Rules / Restrictions:
+
+You must not recreate txt locally in change().
+
+You must modify the variable in the outer function.
+
+You may only use what the original code uses (like nonlocal, assignment, print).
+
+Expected Output:
+
+modified inner
+modified outer
+
+
+Concepts tested:
+
+Enclosing scope
+
+nonlocal
+
+Inner modifying outer
+
+
+🧠 Problem 2 — Global vs Local Collision (Hard)
+
+Analyze this incomplete code:
+
+value = "GLOBAL"
+
+def test():
+    value = "LOCAL"
+
+    def inner():
+        # your code here
+        print(value)
+
+    inner()
+    print(value)
+
+print(value)
+test()
+print(value)
+
+
+Your task:
+Modify only one line inside inner() so that the final output becomes:
+
+GLOBAL
+GLOBAL
+LOCAL
+GLOBAL
+
+
+Rules:
+
+You cannot move or remove existing lines.
+
+You cannot add another variable.
+
+You must use only allowed concepts (global, reading variables, assignment).
+
+You must not modify lines outside inner().
+
+Goal:
+Make inner() print the global value, then after the outer print(), print the local value, and finally the global value again.
+
+Concepts tested:
+
+Global scope
+
+Local shadowing
+
+Using global inside a nested function
+
+
+🧠 Problem 3 — Password Router Using Scope Rules (Hard)
+
+Given this structure:
+
+password = "root"
+
+def system():
+    password = "user"
+
+    def reset():
+        # your code here
+        print(password)
+
+    reset()
+    print(password)
+
+print(password)
+system()
+print(password)
+
+
+Your task:
+Modify only the code inside reset() so that the final output becomes:
+
+root
+admin
+admin
+admin
+
+
+Rules:
+
+You must transform the local password in system() into "admin".
+
+You must also make the global password become "admin" by the end.
+
+You cannot modify any line outside reset().
+
+You can use only:
+
+global
+
+nonlocal
+
+assignments
+
+prints
+
+Concepts tested:
+
+global scope updating
+
+nonlocal modifying outer
+
+order of prints
+
+shadowing
