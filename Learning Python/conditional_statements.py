@@ -42,32 +42,51 @@ else:
     print("u failed")
 
 
+# and
+is_alive = True
+num = 12
+
+print(is_alive and num)
 
 
+is_citizen = True
+edad = 17
+
+if is_citizen and edad >= 18:
+    print("mag trabaho ka na")
+elif is_citizen and age < 18:
+    print("bawal minor pa")
+else:
+    print("di pwede")
 
 
+# or
+is_bachelors = False
+is_masters = False
+is_phd = True
+
+if is_bachelors or is_masters or is_phd:
+    print("100% qualified")
+else:
+    print("disqualified")
 
 
+# not
+is_admin = True
+
+if not is_admin:
+    print("access denied")
+else:
+    print("successful")
 
 
+# and, or, not
+exp = 5
+is_filipino = True
+is_graduate = False
+is_alien = False
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if exp >= 3 and not is_alien and (is_filipino or is_graduate):
+    print("eligible")
+else:
+    print("uneligible")
