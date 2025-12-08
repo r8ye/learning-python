@@ -1,0 +1,76 @@
+✅ Problem 1 — Voting Eligibility Check
+
+You are given three variables:
+
+age = ?
+is_citizen = ?
+has_valid_id = ?
+
+Write a program that prints:
+
+"allowed to vote" if:
+
+age is 18 or above, and
+
+is_citizen is True, and
+
+has_valid_id is True
+
+Otherwise print:
+
+"not allowed"
+
+Use and, or, and not when needed.
+
+
+✅ Problem 2 — Scholarship Qualification
+
+A student can get a scholarship if:
+
+score is 85 or above, or
+
+score is 75 or above AND is_athlete is True, and
+
+student must not be banned
+
+Variables:
+
+score = ?
+is_athlete = ?
+is_banned = ?
+
+
+Print:
+
+"qualified"
+
+otherwise "not qualified"
+
+Use if, elif, else, and logical operators.
+
+
+✅ Problem 3 — Job Application Filter
+
+A job requires:
+
+at least 2 years experience, and
+
+(has_degree or has_certificate), and
+
+must not be a foreign national
+
+Variables:
+
+exp = ?
+has_degree = ?
+has_certificate = ?
+is_foreign = ?
+
+
+Print:
+
+"accepted"
+
+otherwise "rejected"
+
+Use and, or, not, and comparison operators.
