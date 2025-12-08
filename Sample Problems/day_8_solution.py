@@ -34,15 +34,3 @@ if exp >= 2 and (has_degree or has_certificate) and not is_foreign:
     print("accepted")
 else:
     print("rejected")
-
-
-
-
-
-
-
-
-
-
-
-
