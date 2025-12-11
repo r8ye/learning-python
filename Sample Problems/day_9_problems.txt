@@ -1,0 +1,147 @@
+PROBLEM 1: Student Qualification Checker
+Difficulty: Easy–Medium
+Topics: logical operators, if/elif/else, type conversion, string operations
+
+You are given three input values:
+
+age (string input, convert to int)
+
+citizen (string: "yes" or "no")
+
+education (string: may contain uppercase/lowercase)
+
+A student is considered qualified if:
+
+Age is 18 or older, AND
+
+Citizenship is "yes", AND
+
+Education is either "bachelor", "masters", or "phd" regardless of case.
+
+Return:
+
+"Qualified" if all conditions are met
+
+"Not qualified" otherwise
+
+Additional rules:
+
+Trim whitespace around each input.
+
+Use .lower(), .strip(), and logical operators.
+
+Example:
+Input: " 18 ", "YES", "MasterS" → Output: "Qualified"
+
+PROBLEM 2: Math Engine Function
+Difficulty: Medium
+Topics: arithmetic operations, augmented assignment, functions, return values
+
+Create a function math_engine(a, b) that:
+
+Adds 10 to a using augmented assignment.
+
+Multiplies b by 4 using augmented assignment.
+
+Computes the following final expression:
+
+result = (a + b) * (a - b) / (a // 3)
+
+
+Rules:
+
+Ensure floor division a // 3 does not result in zero. If dividing by zero would occur, return "Invalid operation".
+
+Return the computed result as a float.
+
+Example:
+Input: a = 9, b = 3
+Your function should perform all augmented steps before computing the expression.
+
+PROBLEM 3: String Mutation Simulator
+Difficulty: Medium
+Topics: immutability, string methods, loops, modulo, concatenation
+
+Given a string text and an integer n:
+Perform the following algorithm:
+
+Convert text to lowercase.
+
+If the string starts with a vowel, append " start" to the string.
+
+Repeat the following n times:
+
+If current index i modulo 2 equals 0, uppercase the string.
+
+Else, lowercase the string.
+
+After modifying the string, append the string length to the end. Example: "hello5"
+
+Return the final transformed string.
+
+Example:
+Input: "Apple", n = 3
+(Exact output depends on the step-by-step process.)
+
+PROBLEM 4: Salary Adjustment Calculator
+Difficulty: Medium–Hard
+Topics: if-elif-else, augmented operators, floats, rounding, formatting
+
+You are to compute an employee's adjusted salary:
+
+Inputs:
+
+salary (float)
+
+years_experience (int)
+
+is_manager (bool)
+
+Rules:
+
+If experience >= 10: add 15% to salary
+
+Else if experience >= 5: add 7%
+
+Else: add 2%
+
+If is_manager == True: add an additional fixed 5000
+
+After adjustments, apply:
+salary //= 1.5
+
+Round final salary to 2 decimal places
+
+Return the final salary.
+
+PROBLEM 5: Nested Scope Calculator
+Difficulty: Hard
+Topics: local, nonlocal, global scope, custom functions, arithmetic, type conversion
+
+Global variable:
+
+global_result = 10
+
+
+Create a function outer(x, y) that:
+
+Defines a local variable z = x * y
+
+Inside outer, create an inner function modify() that:
+
+Uses nonlocal to modify z → z += x
+
+Creates another function deep() inside it which:
+
+Uses global to modify global_result → multiply it by y
+
+Returns z - global_result
+
+modify() returns the output of deep()
+
+outer(x,y) should return the final result of modify().
+
+Example call:
+outer(3, 4)
+
+You must correctly handle scope behavior.
