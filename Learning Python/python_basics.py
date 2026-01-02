@@ -57,6 +57,30 @@ sentence = f"My name is {pangalan}."
 print(sentence)
 print(f"I am {edad} years old.")
 
+# String Slicing
+msg = "I love nanay!"
+
+print(msg[0:])
+print(msg[2:6])
+print(msg[2:12:3])
+
+# length
+print(len(msg))
+
+# in operator
+print("tatay" in msg)
+print("love" in msg)
+
+
+# string methods
+it = "   Information Technology   "
+
+print(it.upper())
+print(it.lower())
+print(it.strip()) # trim
+print(it.replace("Technology", "Systems"))
+print(it.split(" "))
+
 
 
 
