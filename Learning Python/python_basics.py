@@ -80,8 +80,24 @@ print(it.lower())
 print(it.strip()) # trim
 print(it.replace("Technology", "Systems"))
 print(it.split(" "))
+print(it.find("Science"))
+print(it.find("Information"))
+print(it.count("i"))
+print(it.count("o"))
+print(it.capitalize())
+print(it.islower())
 
 
+listahan = ["apple", "mango", "strawberry"]
+join_listahan = " ".join(listahan)
+print(join_listahan)
+
+
+trans_table = str.maketrans("xyz", "321")
+print(trans_table)
+
+result = "zyx".translate(trans_table)
+print(result)
 
 
 
