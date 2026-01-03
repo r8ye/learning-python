@@ -100,7 +100,43 @@ result = "zyx".translate(trans_table)
 print(result)
 
 
+# Basic Math Operations
+num1 = 12
+num2 = 5.5
+num3 = -67
+num4 = 4
 
+sum = num1 + num2
+print("Sum:", sum)
+
+difference = num1 - num2
+print("Difference:", difference)
+
+product = num1 * num2
+print("Product:", product)
+
+quotient = num1 / num2
+print("Quotient:", quotient)
+
+modulus = num1 % num2
+print("Modulo:", modulus)
+
+floor_div = num1 // num2
+print("Floor Division:", floor_div)
+
+exponent = num1 ** num2
+print("Exponent:", exponent)
+
+print(int(num2))
+print(float(num1))
+print(round(num2))
+print(abs(num3))
+print(bin(num1))
+print(oct(num3))
+print(hex(num1))
+
+power = pow(num1, num4)
+print("Power:", power)
 
 
 
