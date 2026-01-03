@@ -178,10 +178,68 @@ answer = solve(float1, float2)
 print(answer)
 
 
+# firstname = input("What is your first name? ")
+# lastname = input("What is your lastname? ")
+# combine = f"Hello {firstname} {lastname}! Nice to meet you."
+# print(combine)
+
+
+def local_scope():
+    num5 = 88
+    print(num5)
+
+
+def outer_function():
+    enclosing = "Enclosing Scope"
+
+    def inner_function():
+        print(enclosing)
+    inner_function()
+
+outer_function()
 
 
 
+tax = 0.70
 
+def get_total(subtotal):
+    total = subtotal + (subtotal * tax)
+    return total
+
+print(get_total(100))
+
+
+tax_rate = 0.2
+
+def calculate(price):
+    return price - (price * tax_rate)
+
+print(calculate(1000))
+
+
+apple = 20
+grapes = 400
+egg = 10
+
+def calculate3():
+    return (apple * 5) + (grapes / 4) + (egg * 12)
+
+print(calculate3())
+
+
+# input1 = int(input("Enter num1: "))
+# input2 = int(input("Enter num2: "))
+#
+# def calculate4():
+#     return input1 % input2
+#
+# print("Answer: ", calculate4())
+
+
+# Comparison Operators
+print(5 == 5)
+print(7 > 8)
+print(2.5 <= 2)
 
 
 
