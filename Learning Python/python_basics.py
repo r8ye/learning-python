@@ -127,6 +127,9 @@ print("Floor Division:", floor_div)
 exponent = num1 ** num2
 print("Exponent:", exponent)
 
+power = pow(num1, num4)
+print("Power:", power)
+
 print(int(num2))
 print(float(num1))
 print(round(num2))
@@ -135,8 +138,57 @@ print(bin(num1))
 print(oct(num3))
 print(hex(num1))
 
-power = pow(num1, num4)
-print("Power:", power)
+
+# Augmented Assignments
+addition = 3
+addition += 8
+print(addition)
+
+floor_division = 69
+floor_division //= 7
+print(floor_division)
+
+modulu = 100
+modulu %= 11
+print(modulu)
+
+
+# Functions
+def add(a, b):
+    return a + b
+
+sum1 = add(6, 7)
+print(sum1)
+
+
+def exp(a, b):
+    return a ** b
+
+ans = exp(2, 3)
+print(ans)
+
+
+float1 = 4.5
+float2 = 8.2
+
+def solve(a, b):
+    return a / b
+
+answer = solve(float1, float2)
+print(answer)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
