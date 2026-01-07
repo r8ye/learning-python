@@ -178,10 +178,10 @@ answer = solve(float1, float2)
 print(answer)
 
 
-# firstname = input("What is your first name? ")
-# lastname = input("What is your lastname? ")
-# combine = f"Hello {firstname} {lastname}! Nice to meet you."
-# print(combine)
+firstname = input("What is your first name? ")
+lastname = input("What is your lastname? ")
+combine = f"Hello {firstname} {lastname}! Nice to meet you."
+print(combine)
 
 
 def local_scope():
@@ -227,13 +227,13 @@ def calculate3():
 print(calculate3())
 
 
-# input1 = int(input("Enter num1: "))
-# input2 = int(input("Enter num2: "))
-#
-# def calculate4():
-#     return input1 % input2
-#
-# print("Answer: ", calculate4())
+input1 = int(input("Enter num1: "))
+input2 = int(input("Enter num2: "))
+
+def calculate4():
+    return input1 % input2
+
+print("Answer: ", calculate4())
 
 
 # Comparison Operators
@@ -242,33 +242,55 @@ print(7 > 8)
 print(2.5 <= 2)
 
 
+# if, elif and else Statements
+
+grade = 88
+
+if grade >= 90:
+    print("Excellent")
+elif grade >= 75:
+    print("Good")
+else:
+    print("Failed")
 
 
+# nested if statement
+is_citizen = False
+ur_age = 12
+
+if is_citizen:
+    if ur_age >= 18:
+        print("Eligible")
+    elif ur_age < 18:
+        print("You're a minor")
+else:
+    print("Not eligible")
 
 
+# and
+is_subject_math = True
+gpa = 4
+
+if is_subject_math and gpa <= 3.00:
+    print("You passed the math subject")
+else:
+    print("You failed")
 
 
+# or
+is_senior = True
+is_pwd = False
+
+if is_senior or is_pwd:
+    print("Discount is allowed")
+else:
+    print("Discount is not allowed")
 
 
+# not
+is_librarian = True
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+if not is_librarian:
+    print("Access denied")
+else:
+    print("Access granted")
