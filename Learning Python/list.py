@@ -34,3 +34,72 @@ print(colors[0:4:2])
 
 nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(nums[3::3])
+
+
+# append
+numbers = [2, 4, 6, 8, 10]
+print(numbers)
+
+pagkain = ["barbeque", "cheese", "lobster"]
+additional_food = ["bacon", "avocado", "pizza"]
+
+pagkain.append(additional_food)
+print(pagkain)
+
+
+# extend
+kulay = ["red", "blue", "yellow"]
+add_kulay = ["purple", "garnet", "pink"]
+
+kulay.extend(add_kulay)
+print(kulay)
+
+
+# insert
+letters = ["a", "b", "c", "d"]
+letters.insert(3, "z")
+
+print(letters)
+
+
+# remove
+vowels = ["a", "e", "i", "o", "u"]
+vowels.remove("o")
+
+print(vowels)
+
+consonants = ["b", "c", "d", "f", "f", "f"]
+consonants.remove("f")
+
+print(consonants)
+
+
+# pop
+numero = [1, 2, 3, 4, 5]
+numero.pop()
+
+print(numero)
+
+
+# clear
+programs = ["cs", "it", "ece"]
+programs.clear()
+
+print(programs)
+
+
+# sorted
+nums = [8, 5, 2, 9, 5, 1]
+print(sorted(nums))
+
+
+# reverse
+nums_2 = [9, 8, 7, 6, 5]
+nums_2.reverse()
+
+print(nums_2)
+
+
+# index
+languages = ["english", "japanese", "korean", "filipino"]
+print(languages.index("korean"))
