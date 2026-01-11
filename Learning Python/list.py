@@ -34,6 +34,7 @@ print(colors[0:4:2])
 
 nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print(nums[3::3])
+print(sorted(nums))
 
 
 # append
