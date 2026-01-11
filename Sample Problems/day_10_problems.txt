@@ -1,0 +1,103 @@
+Problem 1: Modify and Inspect a Programming Languages List
+
+Difficulty: Hard
+Topics: Indexing, assignment, slicing, membership, index()
+
+Description
+
+You are given a list of programming languages. You must perform a series of operations and answer queries about the list.
+
+Input
+prog_lang = ["Python", "C++", "Rust"]
+
+Operations
+
+Replace the last element of the list with "JavaScript".
+
+Insert "Go" at index 1.
+
+Remove "Python" from the list.
+
+Reverse the list.
+
+Output Requirements
+
+Print the final list.
+
+Print the index of "JavaScript".
+
+Print whether "Rust" exists in the list (True or False).
+
+
+
+Problem 2: Nested List Access and Unpacking
+
+Difficulty: Hard
+Topics: Nested lists, indexing, list unpacking (*rest), type handling
+
+Description
+
+You are given a list that contains mixed data types, including a nested list.
+
+Input
+data = ["Rachelle", 21, "CCS", [1.67, "hello", "world"]]
+
+Operations
+
+Extract the nested list into a variable.
+
+Print the second element of the nested list.
+
+Unpack the first three elements of data into name, age, and dept.
+
+Convert name into a list of characters.
+
+Print the remaining elements of data after unpacking using *rest.
+
+Output Requirements
+
+Print the nested list.
+
+Print the extracted string from the nested list.
+
+Print name, age, and dept.
+
+Print the character list of name.
+
+Print the remaining elements stored in rest.
+
+
+
+Problem 3: List Method Execution Order
+
+Difficulty: Very Hard
+Topics: append, extend, insert, remove, pop, slicing
+
+Description
+
+You are given several lists and must apply multiple list operations in order.
+
+Input
+items = ["a", "b", "c"]
+extras = ["x", "y"]
+nums = [1, 2, 3, 4, 5]
+
+Operations
+
+Append extras to items.
+
+Insert "z" at index 2 in items.
+
+Remove "b" from items.
+
+Pop the last element of nums.
+
+Print every second element of nums starting from index 1.
+
+Output Requirements
+
+Print the final value of items.
+
+Print the updated nums.
+
+Print the sliced result from step 5.
