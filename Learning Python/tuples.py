@@ -17,6 +17,7 @@ fullname, age, program, *rest = bio
 print(fullname)
 print(age)
 print(program)
+
 print(rest)
 
 
