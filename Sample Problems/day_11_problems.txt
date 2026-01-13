@@ -1,0 +1,195 @@
+Problem 1: Print Until a Stop Character
+
+Difficulty: Easy
+Topic: for loop, break, strings
+
+You are given a string s.
+
+Iterate through the string character by character and print each character on a new line.
+Stop printing immediately when you encounter the character 'x'.
+
+Input
+s = "computerxscience"
+
+Output
+c
+o
+m
+p
+u
+t
+e
+r
+
+
+Constraints
+
+1 <= len(s) <= 100
+
+String contains lowercase letters only
+
+Problem 2: Category–Item Pair Printer
+
+Difficulty: Easy–Medium
+Topic: Nested for loops, lists
+
+You are given two lists:
+
+categories
+
+items
+
+For each category, print every item paired with it in order.
+
+Input
+categories = ["fruit", "vegetable"]
+items = ["apple", "carrot"]
+
+Output
+fruit apple
+fruit carrot
+vegetable apple
+vegetable carrot
+
+
+Rules
+
+Use nested loops
+
+Do not use list comprehensions
+
+Problem 3: Find First Vowel Index
+
+Difficulty: Medium
+Topic: for loop, range, break, strings
+
+Given a list of words, print the index of the first vowel found in each word.
+If a word has no vowel, print -1.
+
+Input
+words = ["math", "rhythm", "science"]
+
+Output
+1
+-1
+2
+
+
+Rules
+
+Use a for loop with range
+
+Stop checking once the first vowel is found
+
+Vowels: a, e, i, o, u
+
+#4 – Controlled Range Skipping
+
+Difficulty: Medium
+Focus: for loop, range, continue
+
+Given an integer n, loop from 1 to n (inclusive).
+
+Print each number except those that:
+
+Are divisible by 4, or
+
+End with the digit 3
+
+Input
+n = 20
+
+Output
+1
+2
+4
+5
+6
+7
+8
+9
+10
+11
+12
+14
+15
+16
+17
+18
+19
+20
+
+
+Rules
+
+Must use range
+
+Must use continue
+
+No list comprehensions
+
+#5 – First Match Terminator
+
+Difficulty: Medium–Hard
+Focus: Nested loops, break, strings
+
+You are given a list of words.
+
+For each word, scan its characters from left to right and print the first consonant.
+Stop scanning a word once the first consonant is found.
+
+If a word contains no consonant, print "NONE".
+
+Input
+words = ["apple", "idea", "sky", "aeiou"]
+
+Output
+p
+d
+s
+NONE
+
+
+Rules
+
+Nested loops required
+
+Must use break
+
+Vowels: a e i o u
+
+Lowercase letters only
+
+#6 – Stepwise Countdown Validator
+
+Difficulty: Hard
+Focus: while loop, range, condition control
+
+You are given two integers start and step.
+
+Starting from start, repeatedly subtract step until the value becomes less than or equal to 0.
+
+Print each value only if:
+
+The number is even
+
+The number is not divisible by 6
+
+Input
+start = 50
+step = 7
+
+Output
+50
+36
+22
+8
+
+
+Rules
+
+Must use a while loop
+
+Must control termination using conditions
+
+No for loops allowed
