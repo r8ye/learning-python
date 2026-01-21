@@ -21,3 +21,7 @@ print(fruits)
 
 print("banana" in fruits)
 print("watermelon" in fruits)
+
+
+
+
