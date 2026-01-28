@@ -93,3 +93,27 @@ print(set_a)
 # present or not
 print(5 in set_c)
 print(0 in set_b)
+
+
+
+grades = dict([("stats", 1.25), ("ethics", 2.5), ("math", 1.5)])
+
+print(grades)
+print(grades.keys())
+
+
+# looping
+items = {
+    "biscuit": 10,
+    "coke": 25,
+    "candy": 1
+}
+
+for presyo in items.values():
+    print(presyo)
+
+for index, presyo in enumerate(items.items()):
+    print(index, presyo)
+
+for index, presyo in enumerate(items.items(), 1):
+    print(index, presyo)
