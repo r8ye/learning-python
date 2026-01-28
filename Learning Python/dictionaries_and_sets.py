@@ -117,3 +117,5 @@ for index, presyo in enumerate(items.items()):
 
 for index, presyo in enumerate(items.items(), 1):
     print(index, presyo)
+
+print(items.clear())
