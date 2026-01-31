@@ -50,22 +50,14 @@ except (ValueError, ZeroDivisionError) as e:
     print(f"Error occurred at: {e}")
 
 
+def check_age(age):
+    if age < 18:
+        raise ValueError("You're still a minor")
+    return age
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+try:
+    check_age(12)
+except ValueError as e:
+    print(f"Error: {e}")
+else:
+    print("You're not a minor")
