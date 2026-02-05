@@ -27,25 +27,3 @@ friend2 = Friends("Jess", "BSCS", "3rd")
 
 friend1.info()
 friend2.info()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
