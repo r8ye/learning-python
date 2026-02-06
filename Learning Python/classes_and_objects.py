@@ -27,3 +27,83 @@ friend2 = Friends("Jess", "BSCS", "3rd")
 
 friend1.info()
 friend2.info()
+
+
+# Handle Object Attributes Dynamically
+
+# getattr
+class Tao:
+    def __init__(self, birthday, nickname):
+        self.birthday = birthday
+        self.nickname = nickname
+
+tao = Tao("Aug 26", "Raye")
+
+print(getattr(tao, "birthday"))
+print(getattr(tao, "nickname"))
+print(getattr(tao, "hometown", "paracale"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
