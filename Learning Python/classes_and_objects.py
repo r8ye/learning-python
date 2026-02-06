@@ -44,6 +44,16 @@ print(getattr(tao, "nickname"))
 print(getattr(tao, "hometown", "paracale"))
 
 
+class ShowGrades:
+    def __init__(self, subject, gwa):
+        self.subject = subject
+        self.gwa = gwa
+
+subject = ShowGrades("math", 1.5)
+
+attr_subj = input("enter attribute: ")
+print(getattr(subject, attr_subj, "no grades available"))
+
 
 
 
