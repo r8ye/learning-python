@@ -44,16 +44,29 @@ print(getattr(tao, "nickname"))
 print(getattr(tao, "hometown", "paracale"))
 
 
-class ShowGrades:
-    def __init__(self, subject, gwa):
-        self.subject = subject
-        self.gwa = gwa
+# class ShowGrades:
+#     def __init__(self, subject, gwa):
+#         self.subject = subject
+#         self.gwa = gwa
+#
+# subject = ShowGrades("math", 1.5)
+#
+# attr_subj = input("enter attribute: ")
+# print(getattr(subject, attr_subj, "no grades available"))
 
-subject = ShowGrades("math", 1.5)
 
-attr_subj = input("enter attribute: ")
-print(getattr(subject, attr_subj, "no grades available"))
+# dir
+class Language:
+    def __init__(self, lang, country):
+        self.lang = lang
+        self.country = country
 
+language = Language("filipino", "philippines")
+
+for attr in dir(language):
+    if not attr.startswith("__") and not callable(getattr(language, attr)):
+        value = getattr(language, attr)
+        print(f"{attr}: {value}")
 
 
 
