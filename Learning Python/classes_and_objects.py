@@ -66,4 +66,4 @@ language = Language("filipino", "philippines")
 for attr in dir(language):
     if not attr.startswith("__") and not callable(getattr(language, attr)):
         value = getattr(language, attr)
-        print(f"{attr}: {value}")    #fdasfsd
+        print(f"{attr}: {value}")
